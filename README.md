@@ -7,11 +7,12 @@ Overview:
 We assess the development of allergic asthma and assess the responses of different cell-types to different treatment.
 
 3. **Required R libraries:** You require Rstudio installed on your computer to run this analysis. You also need:
+   
    req_pkages <- c("Seurat", "SeuratObject", "ggplot2", "tidyr", "tidyverse", "eeptools", "summarytools", "DT", "gplots", "knitr", "readxl", 
                 "data.table", "ggrepel", "scales", "compareGroups", "FactoMineR", "factoextra", "RColorBrewer", "lmtest", "corrr", "cowplot", "dplyr", "gridExtra", "kableExtra", 
                 "ggvenn", "plotly", "ggnewscale", "EnhancedVolcano", "ggpubr", "viridis", "scCustomize","pheatmap","DoMultiBarHeatmap", "patchwork")
 lapply(req_pkages, require, character.only = TRUE)
 
-4. **How to Use the Project:** Download the code, modify any file names and directories prior to compiling the Rmarkdown file.
+5. **How to Use the Project:** Download the code, modify any file names and directories prior to compiling the Rmarkdown file.
 
-5. **Manuscript:** Submitted as: Korkmaz et al. (2025).
+6. **Manuscript:** Submitted as: Korkmaz et al. (2025).
