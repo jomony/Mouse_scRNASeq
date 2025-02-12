@@ -13,6 +13,8 @@ We assess the development of allergic asthma and assess the responses of differe
                 "ggvenn", "plotly", "ggnewscale", "EnhancedVolcano", "ggpubr", "viridis", "scCustomize","pheatmap","DoMultiBarHeatmap", "patchwork")
 lapply(req_pkages, require, character.only = TRUE)
 
-5. **How to Use the Project:** Download the code, modify any file names and directories prior to compiling the Rmarkdown file.
+4. **How to Use the Project:** Download the code, modify any file names and directories prior to compiling the Rmarkdown file.
 
-6. **Manuscript:** Submitted as: Korkmaz et al. (2025).
+5. **Manuscript:** Submitted as: Korkmaz et al. (2025).
+ 
+6. **Send questions/comments to:** Jimmy Omony (E-mail: jimmy.omony@helmholtz-munich.de)
