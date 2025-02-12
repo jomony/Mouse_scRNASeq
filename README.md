@@ -7,9 +7,10 @@ Overview:
 We assess the development of allergic asthma and assess the responses of different cell-types to different treatment.
 
 3. **Required R libraries:** You require Rstudio installed on your computer to run this analysis. You also need:
-   library(Seurat); library(SeuratObject); library(ggplot2); library(tidyr); library(tidyverse); library(eeptools); library(summarytools); library(DT); library(gplots); library(knitr); library("readxl"); library(data.table); library(ggrepel); library(scales); library(compareGroups); library("FactoMineR"); library("factoextra"); library(RColorBrewer); library(lmtest); library(corrr); library(cowplot); library(dplyr); library(gridExtra); library(kableExtra); 
-library("ggvenn"); library(plotly); library("ggnewscale"); library(EnhancedVolcano); library(ggpubr); 
-library(viridis); library(scCustomize);library(pheatmap);library(DoMultiBarHeatmap); library(patchwork)
+   req_pkages <- c("Seurat", "SeuratObject", "ggplot2", "tidyr", "tidyverse", "eeptools", "summarytools", "DT", "gplots", "knitr", "readxl", 
+                "data.table", "ggrepel", "scales", "compareGroups", "FactoMineR", "factoextra", "RColorBrewer", "lmtest", "corrr", "cowplot", "dplyr", "gridExtra", "kableExtra", 
+                "ggvenn", "plotly", "ggnewscale", "EnhancedVolcano", "ggpubr", "viridis", "scCustomize","pheatmap","DoMultiBarHeatmap", "patchwork")
+lapply(req_pkages, require, character.only = TRUE)
 
 4. **How to Use the Project:** Download the code, modify any file names and directories prior to compiling the Rmarkdown file.
 
