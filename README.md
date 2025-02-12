@@ -12,4 +12,6 @@ library(compareGroups); library("FactoMineR"); library("factoextra"); library(RC
 library("ggvenn"); library(plotly); library("ggnewscale"); library(EnhancedVolcano); library(ggpubr); 
 library(viridis); library(scCustomize);library(pheatmap);library(DoMultiBarHeatmap); library(SeuratObject); library(patchwork)
 
-4. **How to Use the Project:** Download the code, modify any file names and directories prior to compiling the Rmarkdown file. 
+4. **How to Use the Project:** Download the code, modify any file names and directories prior to compiling the Rmarkdown file.
+
+5. **Manuscript:** Submitted as: Korkmaz et al. (2025).
