@@ -1,0 +1,11 @@
+The RMarkdown codes used for the single-cells data analysis can be found here. 
+The code reads the ".rds" file as input for the gene expression analysis. 
+The mouse types/groups being compared are specified in the code - including the specifics of which cell-types are being analysed.
+
+Required R libraries:
+library(ggplot2); library(tidyr); library(tidyverse); library(eeptools); library(summarytools); library(DT); 
+library(gplots); library(knitr); library("readxl"); library(data.table); library(ggrepel); library(scales); 
+library(compareGroups); library("FactoMineR"); library("factoextra"); library(RColorBrewer); library(lmtest); 
+library(corrr); library(cowplot); library(dplyr); library(Seurat); library(gridExtra); library(kableExtra); 
+library("ggvenn"); library(plotly); library("ggnewscale"); library(EnhancedVolcano); library(ggpubr); 
+library(viridis); library(scCustomize);library(pheatmap);library(DoMultiBarHeatmap); library(SeuratObject); library(patchwork)
