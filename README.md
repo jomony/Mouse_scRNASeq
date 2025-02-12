@@ -3,8 +3,8 @@ Overview:
    "Farm dust extracts as a novel therapeutic tool against asthma"
    
 2. **Project Description:**
-   This project compares gene expression profiles in immune and epithelial cells in different mice - subjected to three treatments.
-We assess the development of allergic asthma and assess the responses of different cell-types to different treatment.
+   This project compares gene expression profiles in immune and epithelial cells in different mice - subjected to different treatments.
+We assess the development of allergic asthma and assess the responses of different cell-types to different treatment. **The study finds that farm dust extracts (FDE) holds promise as a therapeutic approach for allergic asthma.**
 
 3. **Required R libraries:** You require Rstudio installed on your computer to run this analysis. You also need:
    
